@@ -154,7 +154,7 @@ function animate(){
            alert.style.opacity = '0';
            alert.style.pointerEvents = 'none';
             button.style.transform = 'scale(1)';
-            }, 3000);
+            }, 1000);
         }
     
     button.style.left = `${currentX}px`;
