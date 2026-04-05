@@ -142,12 +142,13 @@ function animate(){
             }
         }
 
-    if(speed > 50 && !isFast){
+    if(speed > 50 && !isFast && distance < 300){
     isFast = true;
     alert.style.opacity = '1';
     alert.style.pointerEvents = 'auto';
 
-    button.style.transform = 'scale(0.7)';
+    button.style.transform = 'scale(0.7) rotate(10deg) rotate(-10deg)';
+    button.style.transform = 'scale(0.7) rotate(10deg) rotate(-10deg)';
 
     setTimeout(() => {
                 isFast = false;
